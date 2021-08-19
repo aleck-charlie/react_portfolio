@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Cards from './components/Cards';
+import Footer from './components/Footer';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
@@ -9,6 +12,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <NavBar />
+        <Cards />
+        <Footer />
         <a
           className="App-link"
           href="https://reactjs.org"

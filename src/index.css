@@ -2,31 +2,35 @@
 
 /* base styles */
 * {
+  background: #04bed2ff;
   margin: 0;
   font-family: "Fira Sans";
   color: #333;
 }
 .navbar {
-  padding: 20px;
+  padding: 15px;
   display: flex;
-  align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  margin: 20px;
+  font-size: 25px;
 }
 .navbar h1 {
-  color: #b12893;
+  color: #eeff41;
+  background-color: #0097a7;
 }
 .navbar .links {
   margin-left: auto;
+  color: #eeff41;
 }
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
+  color: #eeff41;
+  background-color: #0097a7;
 }
 .navbar a:hover {
   color: #9b259b;
+  background-color: #f2ef81;
 }
 .content {
   max-width: 600px;

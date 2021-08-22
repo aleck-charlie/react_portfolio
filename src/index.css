@@ -37,3 +37,11 @@
   margin: 40px auto;
   padding: 20px;
 }
+
+.cards {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #f3f3f3ff;
+  border-radius: 20px;
+  max-width: 600px
+}

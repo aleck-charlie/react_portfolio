@@ -8,6 +8,13 @@
   color: #333;
 }
 
+p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: rgb(236, 247, 247);
+}
+
 .navbar {
   padding: 15px;
   display: flex;
@@ -44,7 +51,7 @@
 .cards {
   display: flex;
   justify-content: space-between;
-  background-color: azure;
+  background-color: rgb(236, 247, 247);
   border-bottom: 2px #ff4cf1;
   border-radius: 13px;
   max-width: 600px;

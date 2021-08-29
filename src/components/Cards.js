@@ -3,12 +3,26 @@ import img from '../assets/images/flowers.jpg'
 
 export default function Cards() {
     return (
-        
+
         <div className="cards">
-            <p>Charlie Aleck (they/them) is a full stack web developer based in Chicago specializing in Javascript, React, MongoDB, Graphql and more.</p>
-            <p>When they aren't developing web projects, you can find them drawing and painting, tending their garden and riding their bike year-round</p>
+            <p>
+                Hi there! My name is Charlie Aleck (they/them). 
+                <br/>
+                <br/>
+                I'm a full stack web developer based in Chicago with a focus on Javascript, React, MongoDB, Graphql and more.
+
+                <br/>
+                <br/>
+                When I'm not working on code, you can find me delving into new cookbooks, trying new techniques in digitial illustration and tending my garden.
+                <br/>
+                <br/>
+                Feel free to browse through my Github or Resume below
+                <br/>
+                <br/>
+                <a href="" className="link">Github</a> <a href="" className="link">Resume</a>
+            </p>
             <img className="img" src={img}
-                alt="image of Charlie's hand holding a small bunch of purple flowers"/>
+                alt="image of Charlie's hand holding a small bunch of purple flowers" />
         </div>
     )
 }

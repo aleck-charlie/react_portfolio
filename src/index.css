@@ -8,10 +8,26 @@
   color: #333;
 }
 
+a {
+  margin: auto;
+  width: fit-content;
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+  color: #eeff41;
+  background-color: #5b6bff;
+  }
+
+a:hover {
+  background-color: #eeff41;
+  color: #5b6bff;
+} 
+
 p {
   display: flex;
   flex-direction: column;
   background: rgb(236, 247, 247);
+  margin: 25px;
 }
 
 .navbar {
@@ -63,9 +79,10 @@ p {
 }
 
 .img {
-  max-width: 50%;
+  background: #ecf7f7;
+  padding: 20px;
+  margin: auto;
+  max-block-size: 300px;
   border-radius: 50%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
 }

@@ -21,10 +21,11 @@ p {
   font-size: 25px;
 }
 .navbar h1 {
-  color:#c800ec;
+  color: #0097a7;
   background-color: #f3f083;
   padding-left: 5px;
   padding-right: 5px;
+  text-shadow: -3px 3px #a7ff10;
 }
 .navbar .links {
   margin-left: auto;
@@ -36,7 +37,9 @@ p {
   padding: 6px;
   color: #eeff41;
   background-color: #0097a7;
+  text-shadow: -1px 1px #2b15e0;
 }
+
 .navbar a:hover {
   color: #e052c9;
   background-color: #f2ef81;

@@ -5,7 +5,7 @@ import Contact from '../pages/Contact';
 import Home from '../pages/Home';
 import Projects from '../pages/Projects';
 
-export default function Cards() {
+export default function Card() {
     const [curPage, setPage] = useState("Home");
 
     const renderPage = () => {

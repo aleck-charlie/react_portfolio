@@ -1,5 +1,5 @@
-import Cards from './components/Cards';
+import Card from './components/Card';
 
-const App = () => <Cards />;
+const App = () => <Card />;
 
 export default App;

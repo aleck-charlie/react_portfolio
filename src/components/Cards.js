@@ -19,10 +19,10 @@ export default function Cards() {
                 Feel free to browse through my Github or Resume below
                 <br/>
                 <br/>
-                <a href="" className="link">Github</a> <a href="" className="link">Resume</a>
+                <a href="https://github.com/aleck-charlie" className="link">Github</a> <a href="" className="link">Resume</a>
             </p>
             <img className="img" src={img}
-                alt="image of Charlie's hand holding a small bunch of purple flowers" />
+                alt="small bouquet of purple flowers" />
         </div>
     )
 }

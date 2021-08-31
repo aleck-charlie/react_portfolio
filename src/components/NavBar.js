@@ -6,14 +6,24 @@ export default function NavBar({ changePage, curPage }) {
     <BrowserRouter>
       <Route>
         <nav className="navbar">
-          <h1> Charlie Aleck</h1>
+          <h1>
+            <Link to="Home"
+              onClick={() => changePage("Home")}
+              className={curPage === "Home" ? "nav-link active" : "nav-link"}>
+              Charlie Aleck
+            </Link>
+          </h1>
           <div className="links">
             <Link to="Projects"
               onClick={() => changePage("Projects")}
-              className={curPage === "Projects" ? "nav-link active" : "nav-link"
-              }>Projects</Link>
-            <a href="/">Resume</a>
-            <a href="/">Contact</a>
+              className={curPage === "Projects" ? "nav-link active" : "nav-link"}>
+              Projects
+            </Link>
+            <Link to="Contact"
+              onClick={() => changePage("Contact")}
+              className={curPage === "Contact" ? "nav-link active" : "nav-link"}>
+              Contact
+            </Link>
           </div>
         </nav>
       </Route>

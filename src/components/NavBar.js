@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function NavBar(changePage, curPage) {
+export default function NavBar({changePage, curPage}) {
   return (
     <nav className="navbar">
       <h1> Charlie Aleck</h1>

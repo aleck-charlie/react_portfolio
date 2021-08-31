@@ -7,11 +7,7 @@ export default function NavBar({ changePage, curPage }) {
       <Route>
         <nav className="navbar">
           <h1>
-            <Link to="Home"
-              onClick={() => changePage("Home")}
-              className={curPage === "Home" ? "nav-link active" : "nav-link"}>
               Charlie Aleck
-            </Link>
           </h1>
           <div className="links">
             <Link to="Projects"

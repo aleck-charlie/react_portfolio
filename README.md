@@ -4,7 +4,7 @@ Welcome to my second launched portfolio page! This single page app was created u
 
 ## Deployment
 
-You can find this app deployed on GitPages
+You can find this app deployed on GitPages https://aleck-charlie.github.io/react_portfolio/
 
 ## Future updates
 Future versions of my portfolio will include images of myself, updated screenshots of deployed apps, a gallery page for digital illustation/moving image art, and a contact form to reach me at. 

@@ -20,6 +20,11 @@ export default function NavBar({ changePage, curPage }) {
               className={curPage === "Contact" ? "nav-link active" : "nav-link"}>
               Contact
             </Link>
+            <Link to="Home"
+              onClick={() => changePage("Home")}
+              className={curPage === "Home" ? "nav-link active" : "nav-link"}>
+              About Me
+            </Link>
           </div>
         </nav>
       </Route>

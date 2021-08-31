@@ -3,7 +3,9 @@ import React from 'react';
 export default function Home(){
     return (
         <div className="card">
-            <p>A recent graduate of Northwestern's Full Stack coding boot camp with a background in HTML, CSS, JavaScript, SQL, NoSQL (MonogoDB), jQuery, React and more. My rich life experience in art, film, community building projects, commercial fishing, and event coordination has given me the skills and drive me to seek out creative projects that are engaging, responsive and exploratory.</p>
+            <p>A current student at Northwestern's Full Stack Web Development boot camp with a focus on HTML, CSS, JavaScript, SQL, NoSQL (MonogoDB), jQuery, React and more.
+            </p> 
+            <p>With a background in illustration, moving image, welding, Alaskan commercial fishing, and many years building community events, my life experiences have given me the drive and confidence to seek out bold and creative projects.</p>
         </div>
     );
 }

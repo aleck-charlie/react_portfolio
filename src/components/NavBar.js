@@ -10,7 +10,8 @@ export default function NavBar({changePage, curPage}) {
         <Link to="Projects"
           onClick={() => changePage("Projects")}
           className={curPage === "Projects" ? "nav-link active" : "nav-link"
-          }/>Projects
+          }>Projects</Link>
+          console.log(props)
         <a href="/">Resume</a>
         <a href="/">Contact</a>
       </div>

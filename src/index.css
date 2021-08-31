@@ -66,12 +66,9 @@ p {
 
 .projectcard {
   background-color: rgb(236, 247, 247);
-  border-bottom: 2px #ff4cf1;
-  border-radius: 13px;
   max-width: 400px;
   padding: 10px;
   margin: auto;
-  box-shadow: -6px 6px 14px 0px #da6fcd;
   text-align: center;
 }
 .content {

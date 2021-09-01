@@ -15,9 +15,10 @@ Enjoy!
 
 ## Languages Used
 
--JSX
--CSS
--React
+- JavaScript
+- JSX
+- CSS
+- React
 
 ## License
 MIT

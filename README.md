@@ -13,6 +13,12 @@ All future portfolios will include a gallery of past versions to showcase how th
 
 Enjoy!
 
+## Languages Used
+
+-JSX
+-CSS
+-React
+
 ## License
 MIT
 
